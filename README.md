@@ -63,7 +63,7 @@ python3 server.py
 ```
 # The backend is now running! Now for the frontend: 
 ``` bash
-cd ~/Desktop/nlp-server/aptive-react 
+cd ~/Desktop/nlp-server/frontend-react 
 ```
 ``` bash
 npm start
