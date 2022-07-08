@@ -1,0 +1,203 @@
+.files input {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset 0.15s ease-in-out,
+    background-color 0.15s linear;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  padding: 120px 0px 85px 20%;
+  text-align: center !important;
+  margin: 0;
+  width: 50% !important;
+  
+}
+.files input:focus {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset 0.15s ease-in-out,
+    background-color 0.15s linear;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  border: 1px solid #92b0b3;
+  margin-left: 10px;
+  justify-content: center;
+  
+}
+.files {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 50px;
+  justify-content: center;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-weight: 500;
+}
+.files:after {
+  pointer-events: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 50px;
+  right: 0;
+  height: 56px;
+  content: "";
+  background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+  display: block;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  justify-content: center;
+}
+.color input {
+  background-color: #f1f1f1;
+}
+.files:before {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  right: 0;
+  height: 57px;
+  content: "";
+  display: block;
+  margin: 0 auto;
+  color: #2ea591;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: justify;
+  justify-content: center;
+ 
+}
+
+.images-container {
+  max-width: 1000px;
+  height:800px;
+  margin: 32px auto;
+  display: flex;
+  border: 2px solid #222
+}
+
+.images-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+.images-container .description {
+  position: relative;
+
+}
+.images-container .description {
+  position: absolute;
+  bottom: -180px;
+  background: #222;
+  color: #fff;
+  padding: 8px 16px;
+  box-shadow: 0 -3px 3px rgba(0,0,0,0.4);
+  opacity: 0;
+  transition: all 400ms;
+
+
+}
+
+.images-container .description h2 {
+  color: #fff;
+
+}
+.images-container .image:hover .description {
+  opacity:1;
+  bottom: 0;
+
+
+}
+
+
+.form-container {
+  /* position: relative; */
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  
+  /* margin: 32px auto;*/
+}
+.results-containers {
+  display: flex; 
+  flex-direction: row;
+  padding: 5%;
+}
+
+.results-container {
+  width: 50%;
+  max-width: 700px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+
+  padding: 8px 32px;
+  overflow-x: hidden;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  border: 1px solid #222;
+  text-align: justify;
+  justify-content: center;
+}
+.results-container2 {
+  width: 50%;
+  max-width: 700px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  padding: 8px 32px 1px;
+  overflow-x: hidden;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  border: 1px solid #222;
+  text-align: justify;
+  justify-content: center;
+}
+
+
+
+
+
+/* CSS */
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 10%;
+  will-change: transform;
+  margin-left: 45%;
+  margin-bottom: 10%;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
